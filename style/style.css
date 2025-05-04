@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* 
+以下のCSSは「リセットCSS」といいます。
+各ブラウザには最初から一部CSSの値が設定されており、それをリセットして見栄えを統一するために使われます。
+コピペで自身のCSSファイルに貼っておいてください。
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* リセットCSS おわり */
+
+html{
+  font-size: 100%;
+}
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.7;
+  background-color: #000;
+  color: #FFF;
+}
+
+
+/* 
+CSSは各要素をデザインツール（figma）に沿って、
+サイズや余白を調整していきます。流れは口頭で説明できればと！
+
+▼ここからCSSの解説
+
+【ヘッダー要素の調整】
+・高さを指定
+・背景色を黒に指定
+・背景色の透明度をデザイン通りに指定。
+・左右のパディングを指定
+
+【ロゴの調整】
+・サイズを指定
+
+【ナビゲーションの調整】
+・フォントサイズを指定
+・テキスト同士を横並びに
+・テキスト間の余白調整
+・位置をロゴの右隣へ移動
+・ロゴとの余白調整
+
+【ボタンの調整】
+・フォントサイズを指定
+・各ボタンにパディングを指定
+・ご予約ボタンに背景色をデザイン通りに指定
+・空室カレンダーボタンに枠線を指定
+・ボタン間の余白を調整
+
+【全体の調整】
+・各要素の位置を上下中央に指定（※ちょい難しいです）
+
+*/
+
