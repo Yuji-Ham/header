@@ -63,9 +63,31 @@ html{
 }
 body{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  line-height: 1.7;
   background-color: #000;
   color: #FFF;
+}
+
+.Cover{
+  background-size: cover;
+  background-position: center bottom;
+  height: 800px;
+}
+
+.Cover_Home{
+  background-image: url(../img/kv.jpg);
+}
+
+.Header_Image{
+  size: 50%;
+}
+
+.Main_Navi{
+  display: flex;
+  justify-content: left;
+  padding: 0 0 0 100px;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  list-style: none;
 }
 
 
